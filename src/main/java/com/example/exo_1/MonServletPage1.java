@@ -8,8 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "monServletJSP", value = "/monservlet-jsp")
-public class MonServletJSP extends HttpServlet {
+@WebServlet(name = "monServletJSP", value = "/page01")
+public class MonServletPage1 extends HttpServlet {
 
     private String prenom;
     @Override

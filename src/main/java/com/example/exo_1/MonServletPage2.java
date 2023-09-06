@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "monServletPage2JSP", value = "/monservlet-page02")
+@WebServlet(name = "monServletPage2JSP", value = "/page02")
 public class MonServletPage2 extends HttpServlet {
 
     private String prenom;
